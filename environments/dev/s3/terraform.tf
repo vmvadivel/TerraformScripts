@@ -1,4 +1,4 @@
-module "datafeedback_s3" {
+module "testing_s3" {
   source      = "../../../modules/s3"
   aws_profile = "RnD"
   region      = "us-east-1"
