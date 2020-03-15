@@ -15,3 +15,7 @@ terraform --version
 
 The above command should display the version of the terraform.
 
+## AWS CLI
+
+The examples we would be using are all related to AWS. So let's download the AWS CLI to setup the aws profile
+https://docs.aws.amazon.com/cli/latest/userguide/install-windows.html
