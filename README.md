@@ -40,3 +40,24 @@ aws configure --profile yourChoiceOfProfileName
 * Secret Access Key
 * Default Region Name
 * Default output format
+
+# Few Terraform Commands to know
+* terraform init
+
+https://www.terraform.io/docs/commands/init.html
+
+* terraform show
+
+https://www.terraform.io/docs/commands/show.html
+
+* terraform plan
+
+https://www.terraform.io/docs/commands/plan.html
+
+* terraform apply
+
+https://www.terraform.io/docs/commands/apply.html
+
+* terraform destroy
+
+https://www.terraform.io/docs/commands/destroy.html
