@@ -19,3 +19,24 @@ The above command should display the version of the terraform.
 
 The examples we would be using are all related to AWS. So let's download the AWS CLI to setup the aws profile
 https://docs.aws.amazon.com/cli/latest/userguide/install-windows.html
+
+### Verification
+Goto command prompt and type the following:
+
+aws --version
+
+This command would show the AWS CLI version which has been installed on this machine
+
+### Setting up the AWS profile
+
+1. If you have the AWS Account. Goto IAM and download the credentials of the user you would want to use with your terraform scripts like Access Key ID, Secret Access Key 
+
+2. From the command prompt type:
+
+aws configure --profile yourChoiceOfProfileName
+  
+3. On prompt enter the following one after the other
+* Access Key ID
+* Secret Access Key
+* Default Region Name
+* Default output format
