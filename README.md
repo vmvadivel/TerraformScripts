@@ -8,7 +8,7 @@ As a first step we need an IDE to work with the terraform scripts. Any existing 
 2. Unzip into a folder. It would have an terraform.exe in it.
 3. Goto the machine environment variables and add the path of where terraform.exe resides to the PATH variable
 
-## Verification: 
+### Verification: 
 Goto command prompt and type the following:
 
 terraform --version
